@@ -4,8 +4,8 @@ import tensorflow as tf
 flags = tf.app.flags
 
 # For data preprocessing.
-# dataset = 'ptc'
-dataset = 'nci109'
+dataset = 'ptc'
+# dataset = 'webeasy'
 dataset_train = dataset
 dataset_val_test = dataset
 if 'aids' in dataset or dataset in ['webeasy', 'nci109', 'ptc']:
